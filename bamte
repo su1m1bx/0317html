@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url("rainbowbg.png");
+        background-size: 128px;
+        font-family: "Jua", sans-serif;
+    }
+    tr {
+        background-image: url(IMG_0044.GIF);
+    }
+    th {
+        color: red;
+    }
+    td {
+        color: magenta;
+    }
+    div {
+        background-color: rgba(255, 0, 0, 0.676);
+        font-style: italic;
+        color: rgb(0, 255, 34);
+        width: 100px;
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    p {
+        color: red;
+        background-color: rgba(0, 0, 0, 0.796);
+        font-style: bold;
+        width: 200px;
+    }
+</style>
+<body>
+    <img src="03170602.png" width="500px" height="100px">
+    <img src="IMG_0048.jpg" width="100px"><div>야옹~!!!!!!</div>
+    <table border="1">
+    <p><strong>!!못 받은 돈 돌려받아드립니다!!</strong>
+    <<010-5324-5837>></p>
+        <tr>
+            <div><th>시간</td></div>
+            <th>월요일</td>
+            <th>화요일</td>
+            <th>수요일</td>
+            <th>목요일</td>
+            <th>금요일</td>
+        </tr>
+        <tr>
+            <td>1교시</td>
+            <td>과학(최)</td>
+            <td rowspan="3">프로 (김)</td>
+            <td>영어 B</td>
+            <td>수학 (김)</td>
+            <td>과학(최)</td>
+        </tr>
+        <tr>
+            <td>2교시</td>
+            <td>영어 A</td>
+            <td rowspan="2">컴그</td>
+            <td>컴구</td>
+            <td>체육(설)</td>
+        </tr>
+        <tr>
+            <td>3교시</td>
+            <td>컴그</td>
+            <td>서회(허)</td>
+            <td rowspan="2">자구</td>
+        </tr>
+        <tr>
+            <td>4교시</td>
+            <td>수학(김)</td>
+            <td></td>
+            <td>1교시</td>
+            <td>1교시</td>
+        </tr>
+        <tr>
+            <th colspan="7">점심시간</td>
+        </tr>
+        <tr>
+            <td>5교시</td>
+            <td>진독</td>
+            <td rowspan="2">자구</td>
+            <td>과학(최)</td>
+            <td rowspan="3">프로</td>
+            <td rowspan="2">CA</td>
+        </tr>
+        <tr>
+            <td>6교시</td>
+            <td>컴구</td>
+            <td>수학(김)</td>
+        </tr>
+        <tr>
+            <td>7교시</td>
+            <td>사회</td>
+            <td>자습</td>
+            <td>자습</td>
+        </tr>
+        <tr>
+            <td>8교시</td>
+            <td rowspan="2">SQL</td>
+            <td rowspan="2"><a href="https://www.instagram.com/db_insurance.park47/">화면구현</a></td>
+            <td rowspan="2">개축</td>
+            <td rowspan="2">자습</td>
+        </tr>
+        <tr>
+            <td>9교시</td>
+        </tr>
+        <tr>
+            <th colspan="5">저녁식사</th>
+        </tr>
+        
+        <tr>
+            <td>10교시</td>
+            <td rowspan="2">SQL</td>
+            <td rowspan="2">화면구현</td>
+            <td rowspan="2">개축</td>
+            <td rowspan="2">자습</td>
+        </tr>
+        <tr>
+            <td>11교시</td>
+        </tr>
+    </table>
+</body>
+</html>
